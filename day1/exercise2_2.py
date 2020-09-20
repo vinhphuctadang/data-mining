@@ -42,6 +42,9 @@ print('Bargain max:\n', reviews.loc[idMax, ["title"]])
 
 tropical = reviews.description.map(lambda x: 'tropical' in x).sum()
 fruity    = reviews.description.map(lambda x: 'fruity' in x).sum()
+# TODO: Test another method and evaluate performance
+# Example: Aggregration using regex. Ex: reviews.description[reviews.description.contains('tropical)].count()
+#
 # descriptor_counts = pd.Series([tropical, fruit], index=['tropical', 'fruity'])
 # print('Descriptor counts:\n', descriptor_counts)
 # we can do this way
