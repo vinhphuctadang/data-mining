@@ -50,8 +50,9 @@ fruity    = reviews.description.map(lambda x: 'fruity' in x).sum()
 # we can do this way
 meta = {
     'tropical': [tropical],
-    'fruit': [fruity]   
+    'fruit': [fruity]
 }
+
 df = pd.DataFrame(meta)
 print('Fruit and tropical:', df)
 
