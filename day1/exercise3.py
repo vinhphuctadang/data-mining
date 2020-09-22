@@ -4,7 +4,6 @@
 # taster_twitter_handle,title,variety,winery
 import scrapy
 import json
-from bs4 import BeautifulSoup 
 import scrapy
 
 header = [
