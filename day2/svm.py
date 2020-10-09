@@ -19,7 +19,6 @@ def judge(prompt, loadFunction):
         scores = cross_val_score(model, X, y, cv=5) # run 5 folds
         print('Mean accuracy using kernel %s:' % kernel, scores.mean())
 
-
 judge('Applying Svm on wine', load_wine)
 judge('Applying Svm on breast cancer', load_breast_cancer)
 judge('Applying Svm on handwriting', load_digits)

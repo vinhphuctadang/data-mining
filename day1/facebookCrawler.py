@@ -1,6 +1,8 @@
 # Usage
 # <script> <facebookHandle> fromPost toPost
 # E.g. facebookCrawler.py 0 10
+# Post crawling script made by vinhphuctadang@gmail.com
+# fb: fb.me/vinhphuctadang
 #
 # Samples are saved in fbposts.txt automatically
 # what to crawl ?
@@ -199,3 +201,7 @@ def main():
         return 
     f.close()
 main()
+
+#
+#
+#
